@@ -112,7 +112,7 @@ The main steps were:
 
 ## Project Files
 
-* [nobel_laureates_analysis.ipynb](nobel_laureates_analysis.ipynb)— Full analysis and charts.
+* [nobel_laureates_analysis.ipynb](nobel_laureates_analysis.ipynb) — Full analysis and charts.
 * [nobel.csv](datasets/nobel.csv) — Nobel Prize dataset.
 
 ## Conclusion
