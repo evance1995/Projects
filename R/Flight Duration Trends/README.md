@@ -28,7 +28,8 @@ This project looks at:
 
 This chart shows how the percentage of female Nobel laureates changed over time.
 
-![Female Representation Over Time](images/female_representation_over_time.png)
+<img width="400" alt="image" src="https://github.com/user-attachments/assets/397b7d1d-2a67-4099-8fb2-b999195e1b23" />
+
 
 ### Top 10 Birth Countries
 
@@ -98,19 +99,14 @@ The main steps were:
 * Grouping and counting data
 * Calculating percentages
 * Data visualization
-* Working with data over time
 
 ## Limitations
 
-This project shows patterns in the Nobel Prize dataset. It does not show the overall level of achievement of a country or group.
-
-Some records have missing information, especially for variables such as sex and birth country.
-
-Birth country also does not necessarily mean that the Nobel-winning work was done in that country.
-
-The 2020s only include **2020–2023**, so this period is not a complete decade and should be compared carefully with earlier decades.
-
-There may also be other historical or social factors that affected the results. This project shows patterns in the data but does not explain exactly why those patterns happened.
+ - These trends don't measure which countries or groups are the smartest or most capable.
+ - Some records are missing information about a winner's gender or birthplace.
+ - Where someone was born isn't always where they did their research.
+ - Changes in Nobel Prize representation over time may be affected by changes in the population of eligible candidates and how Nobel Prizes were awarded.
+ - This report shows what the trends are, but it doesn't try to explain why they happen.
 
 ## Project Files
 
