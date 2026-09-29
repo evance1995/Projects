@@ -35,13 +35,15 @@ This chart shows how the percentage of female Nobel laureates changed over time.
 
 This chart shows the 10 birth countries with the highest number of Nobel laureates.
 
-![Top 10 Birth Countries](images/top_10_birth_countries.png)
+<img width="400" alt="image" src="https://github.com/user-attachments/assets/81385741-1d02-4407-affe-c1c4b1bb7cfb" />
+
 
 ### Female Representation by Nobel Prize Category
 
 This chart compares the percentage of female laureates across Nobel Prize categories.
 
-![Female Representation by Category](images/female_representation_by_category.png)
+<img width="400" alt="image" src="https://github.com/user-attachments/assets/68d63e41-da1d-4b26-be42-f2d5b72fd93c" />
+
 
 ## Questions Analyzed
 
