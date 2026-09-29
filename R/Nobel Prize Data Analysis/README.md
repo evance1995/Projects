@@ -63,9 +63,12 @@ Before starting the analysis, I checked the data for:
 
 * Missing values.
 * Duplicate records.
+* Parsing issues in the `birth_date` variable.
 * The range of Nobel Prize years.
 
 Missing values were kept when they did not affect the analysis. When a missing value affected a calculation, those records were left out of that calculation.
+
+Several `birth_date` values contain incomplete dates, such as `1993-00-00`, where the year is known but the month and day are unknown. Since `birth_date` is not used in this analysis, these records were retained.
 
 ## Methodology
 
