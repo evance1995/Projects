@@ -29,7 +29,8 @@ The analysis explores three main areas:
 
 The proportion of female Nobel laureates remained relatively low during much of the early history of the Nobel Prize but increased in more recent decades.
 
-![Female Representation Over Time](images/female_representation_over_time.png)
+<img width="840" height="840" alt="image" src="https://github.com/user-attachments/assets/8ef3b466-f6e3-4f32-9431-f66e77b40914" />
+
 
 ### Top 10 Birth Countries
 
