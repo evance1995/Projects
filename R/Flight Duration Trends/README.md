@@ -1,46 +1,44 @@
-
 # Nobel Prize Laureates: Data Analysis and Visualization
 
 ## Overview
 
-This project explores Nobel Prize laureates from **1901 to 2023** using **R and the tidyverse**.
+This project looks at Nobel Prize winners from **1901 to 2023** using **R and the tidyverse**.
 
-The analysis examines patterns in Nobel Prize representation across **sex, birth country, Nobel Prize category, and time**.
+The analysis looks at Nobel laureates by **sex, birth country, Nobel Prize category, and year**. The goal is to find some interesting patterns and changes over time.
 
 ## Project Objectives
 
-The analysis explores three main areas:
+This project looks at:
 
-* How representation has changed over time.
-* How Nobel laureates are geographically distributed.
-* How representation differs across Nobel Prize categories.
+* How Nobel Prize representation has changed over time.
+* Which countries have the most Nobel laureates.
+* How representation differs between Nobel Prize categories.
 
 ## Key Findings
 
-* **Sex representation:** Among laureates with recorded sex, there were **905 male laureates and 65 female laureates**. Female representation increased notably from the 2000s to the 2010s.
-* **Category differences:** Female representation varies across Nobel Prize categories, with higher representation in some categories than others.
-* **Geographic concentration:** The **United States** was the birth country of **291 Nobel laureates**, the highest total among the countries analyzed.
-* **US representation:** The proportion of US-born laureates varied considerably across decades and reached **44% in the 2000s**.
-* **Repeat recipients:** The dataset includes individuals and organizations that received multiple Nobel Prizes.
+* **Sex:** Among laureates with recorded sex, there were **905 male laureates and 65 female laureates**. Female representation increased in more recent decades.
+* **Nobel categories:** The number of female laureates was different across Nobel Prize categories.
+* **Birth country:** The **United States** had the highest number of Nobel laureates by birth country, with **291 laureates**.
+* **US-born laureates:** The percentage of US-born laureates changed across different decades and reached **44% in the 2000s**.
+* **Repeat winners:** Some individuals and organizations received more than one Nobel Prize.
 
 ## Visualizations
 
 ### Female Representation Over Time
 
-The proportion of female Nobel laureates remained relatively low during much of the early history of the Nobel Prize but increased in more recent decades.
+This chart shows how the percentage of female Nobel laureates changed over time.
 
-<img width="840" height="840" alt="image" src="https://github.com/user-attachments/assets/8ef3b466-f6e3-4f32-9431-f66e77b40914" />
-
+![Female Representation Over Time](images/female_representation_over_time.png)
 
 ### Top 10 Birth Countries
 
-The United States had the largest number of Nobel laureates by birth country, followed by other countries with substantial representation.
+This chart shows the 10 birth countries with the highest number of Nobel laureates.
 
 ![Top 10 Birth Countries](images/top_10_birth_countries.png)
 
 ### Female Representation by Nobel Prize Category
 
-Female representation varies considerably across Nobel Prize categories.
+This chart compares the percentage of female laureates across Nobel Prize categories.
 
 ![Female Representation by Category](images/female_representation_by_category.png)
 
@@ -49,41 +47,41 @@ Female representation varies considerably across Nobel Prize categories.
 1. Which sex has the most Nobel laureates?
 2. Which birth countries have the most Nobel laureates?
 3. Which decade had the highest proportion of US-born laureates?
-4. Which decade-category combinations had the highest proportion of female laureates?
+4. Which decade and category had the highest proportion of female laureates?
 5. Who was the first woman to receive a Nobel Prize?
-6. Which individuals or organizations received multiple Nobel Prizes?
-7. How has the proportion of female Nobel laureates changed over time?
-8. Which Nobel Prize categories have the highest and lowest proportions of female laureates?
-9. How has the distribution of Nobel laureates across categories changed over time?
+6. Which people or organizations received multiple Nobel Prizes?
+7. How has female representation changed over time?
+8. Which Nobel Prize categories have the highest and lowest female representation?
+9. How has the number of laureates in each category changed over time?
 
 ## Data Quality Checks
 
-Before conducting the analysis, the dataset was checked for:
+Before starting the analysis, I checked the data for:
 
-* Missing values in key variables.
+* Missing values.
 * Duplicate records.
 * The range of Nobel Prize years.
 
-Missing values were retained when they did not prevent the relevant analysis. Where necessary, missing values were excluded from calculations involving the affected variable.
+Missing values were kept when they did not affect the analysis. When a missing value affected a calculation, those records were left out of that calculation.
 
 ## Methodology
 
-The analysis was conducted using R and the tidyverse.
+The analysis was done using R and the tidyverse.
 
-The main steps included:
+The main steps were:
 
-1. Inspecting the structure and contents of the dataset.
-2. Checking for missing values, duplicates, and the range of years.
-3. Creating derived variables such as `decade`.
-4. Grouping and summarizing laureates by sex, country, decade, and category.
-5. Calculating counts and proportions.
-6. Identifying notable patterns and trends.
-7. Creating visualizations using `ggplot2`.
-8. Interpreting the results and documenting limitations.
+1. Looking at the structure of the data.
+2. Checking for missing values and duplicate records.
+3. Creating a `decade` variable.
+4. Grouping and counting laureates by different variables.
+5. Calculating percentages.
+6. Looking for patterns in the data.
+7. Creating charts with `ggplot2`.
+8. Writing down the main findings.
 
 ## Tools & Skills
 
-**Languages & Libraries**
+**Tools**
 
 * R
 * tidyverse
@@ -92,35 +90,33 @@ The main steps included:
 * readr
 * forcats
 
-**Skills Demonstrated**
+**Skills**
 
-* Exploratory Data Analysis (EDA)
 * Data cleaning
+* Data analysis
 * Data transformation
-* Grouping and aggregation
-* Proportion calculations
+* Grouping and counting data
+* Calculating percentages
 * Data visualization
-* Historical trend analysis
-* Data interpretation
+* Working with data over time
 
 ## Limitations
 
-This analysis describes patterns within the Nobel Prize laureate dataset and does not measure the overall ability or achievement of countries or demographic groups.
+This project shows patterns in the Nobel Prize dataset. It does not show the overall level of achievement of a country or group.
 
-Some records contain missing information, particularly for variables such as sex and birth country.
+Some records have missing information, especially for variables such as sex and birth country.
 
-Birth country also does not necessarily represent the country where a laureate conducted the work associated with the Nobel Prize.
+Birth country also does not necessarily mean that the Nobel-winning work was done in that country.
 
-The 2020s represent only **2020–2023** in this dataset, so this period should not be directly compared with complete decades.
+The 2020s only include **2020–2023**, so this period is not a complete decade and should be compared carefully with earlier decades.
 
-Changes in Nobel Prize representation over time may also be affected by historical circumstances, the population of eligible candidates, and Nobel Prize selection practices. The analysis identifies patterns but does not attempt to establish causal explanations for them.
+There may also be other historical or social factors that affected the results. This project shows patterns in the data but does not explain exactly why those patterns happened.
 
 ## Project Files
 
-* `nobel_laureates_analysis.ipynb` — Complete analysis, visualizations, and findings.
-* `data/nobel.csv` — Nobel Prize laureate dataset.
-* `images/` — Visualizations featured in this README.
+* `nobel_laureates_analysis.ipynb` — Full analysis and charts.
+* `data/nobel.csv` — Nobel Prize dataset.
 
 ## Conclusion
 
-This project demonstrates the use of R to **inspect, clean, transform, analyze, visualize, and interpret historical data**. It combines exploratory analysis with data visualization to examine Nobel Prize representation across time, geography, sex, and category.
+This project shows how I used R to **look at, clean, analyze, and visualize data**. I used the Nobel Prize dataset to explore changes in Nobel Prize winners across time, country, sex, and category.
