@@ -94,7 +94,6 @@ The main steps were:
 * dplyr
 * ggplot2
 * readr
-* forcats
 
 **Skills**
 
