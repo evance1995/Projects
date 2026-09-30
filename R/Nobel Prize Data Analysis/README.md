@@ -106,8 +106,8 @@ The main steps were:
 
 ## Limitations
 
- - These trends don't measure which countries or groups are the smartest or most capable.
- - Some records are missing information about a winner's gender or birthplace.
+ - These trends do not measure the ability or achievement of countries or groups.
+ - Some records are missing information about a winner's sex or birthplace.
  - Where someone was born isn't always where they did their research.
  - Changes in Nobel Prize representation over time may be affected by changes in the population of eligible candidates and how Nobel Prizes were awarded.
  - This report shows what the trends are, but it doesn't try to explain why they happen.
