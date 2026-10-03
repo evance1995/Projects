@@ -34,7 +34,7 @@ This project looks at:
 
 Four datasets were used in this project.
 
-### `client_details.csv`
+`client_details.csv`
 
 Contains information about each client:
 
@@ -43,7 +43,7 @@ Contains information about each client:
 * Industry
 * Location
 
-### `subscription_records.csv`
+`subscription_records.csv`
 
 Contains information about customer subscriptions:
 
@@ -53,7 +53,7 @@ Contains information about customer subscriptions:
 * End date
 * Whether the subscription was renewed
 
-### `payment_history.csv`
+`payment_history.csv`
 
 Contains payment information:
 
@@ -62,7 +62,7 @@ Contains payment information:
 * Amount paid
 * Payment method
 
-### `economic_indicators.csv`
+`economic_indicators.csv`
 
 Contains economic information:
 
