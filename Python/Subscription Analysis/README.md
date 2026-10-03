@@ -105,32 +105,32 @@ These checks were used to make sure the data was ready for analysis.
 
 The main steps were:
 
-Load the datasets.
-Check the data.
-Convert date columns to the correct format.
-Combine related datasets using client_id.
-Calculate renewal rates.
-Analyze payment information.
-Compare subscription data with economic data.
-Create charts.
-Review the main findings.
+1. Load the datasets.
+2. Check the data.
+3. Convert date columns to the correct format.
+4. Combine related datasets using client_id.
+5. Calculate renewal rates.
+6. Analyze payment information.
+7. Compare subscription data with economic data.
+8. Create charts.
+9. Review the main findings.
 
 ## Tools & Skills
 
 **Tools**
-Python
-Pandas
-Matplotlib
-Seaborn
+* Python
+* Pandas
+* Matplotlib
+* Seaborn
 
 **Skills**
-Data cleaning
-Data checking
-Data analysis
-Data merging
-Working with dates
-Grouping and calculating data
-Data visualization
+* Data cleaning
+* Data checking
+* Data analysis
+* Data merging
+* Working with dates
+* Grouping and calculating data
+* Data visualization
 
 ## Limitations
 
