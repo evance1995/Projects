@@ -34,42 +34,42 @@ This project looks at:
 
 Four datasets were used in this project.
 
-### client_details.csv
+### `client_details.csv`
 
 Contains information about each client:
 
-Client ID
-Company size
-Industry
-Location
+* Client ID
+* Company size
+* Industry
+* Location
 
-### subscription_records.csv
+### `subscription_records.csv`
 
 Contains information about customer subscriptions:
 
-Client ID
-Subscription type
-Start date
-End date
-Whether the subscription was renewed
+* Client ID
+* Subscription type
+* Start date
+* End date
+* Whether the subscription was renewed
 
-### payment_history.csv
+### `payment_history.csv`
 
 Contains payment information:
 
-Client ID
-Payment date
-Amount paid
-Payment method
+* Client ID
+* Payment date
+* Amount paid
+* Payment method
 
-### economic_indicators.csv
+### `economic_indicators.csv`
 
 Contains economic information:
 
-Start date
-End date
-Inflation rate
-GDP growth rate
+* Start date
+* End date
+* Inflation rate
+* GDP growth rate
 
 ## Key Findings
 
