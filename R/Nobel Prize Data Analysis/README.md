@@ -14,6 +14,14 @@ This project looks at:
 * Which countries have the most Nobel laureates.
 * How representation differs between Nobel Prize categories.
 
+## Key Findings
+
+* **Sex:** Among laureates with recorded sex, there were **905 male laureates and 65 female laureates**. Female representation increased in more recent decades.
+* **Nobel categories:** The number of female laureates was different across Nobel Prize categories.
+* **Birth country:** The **United States** had the highest number of Nobel laureates by birth country, with **291 laureates**.
+* **US-born laureates:** The percentage of US-born laureates changed across different decades and reached **44% in the 2000s**.
+* **Repeat winners:** Some individuals and organizations received more than one Nobel Prize.
+  
 ## Visualizations
 
 ### Female Representation Over Time
@@ -95,14 +103,6 @@ The main steps were:
 * Grouping and counting data
 * Calculating percentages
 * Data visualization
-
-## Key Findings
-
-* **Sex:** Among laureates with recorded sex, there were **905 male laureates and 65 female laureates**. Female representation increased in more recent decades.
-* **Nobel categories:** The number of female laureates was different across Nobel Prize categories.
-* **Birth country:** The **United States** had the highest number of Nobel laureates by birth country, with **291 laureates**.
-* **US-born laureates:** The percentage of US-born laureates changed across different decades and reached **44% in the 2000s**.
-* **Repeat winners:** Some individuals and organizations received more than one Nobel Prize.
   
 ## Limitations
 
