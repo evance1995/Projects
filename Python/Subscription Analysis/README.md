@@ -169,10 +169,10 @@ The main steps were:
 
 ## Limitations
 
-- Economic data covers broader periods, while subscription dates are specific days.
-- Economic data is not available for every subscription period.
-- Payment dates should not automatically be treated as renewal dates.
-- The analysis shows patterns in the data but does not prove that one factor caused another.
+- Economic data covers specific periods, while subscription end dates are specific days.
+- Economic data is not available for all subscription dates, so dates outside the available period were excluded from the economic analysis.
+- Payment dates should not automatically be considered renewal dates.
+- The analysis shows patterns in the data but does not prove that economic conditions or payment amounts caused customers to renew.
 
 ## Project Files
 * notebook.ipynb — Main analysis
