@@ -175,7 +175,7 @@ The main steps were:
 
 ## Project Files
 * notebook.ipynb — Main analysis
-* datasets/ — CSV files used in the project
+* [datasets/subscription analysis](Python/Subscription Analysis/datasets) — CSV files used in the project
 
 ## Conclusion
 
