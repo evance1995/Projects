@@ -86,41 +86,42 @@ The project includes charts showing:
 
 This chart shows the number of clients in each industry
 
-<img width="400" alt="image" src="https://github.com/user-attachments/assets/70a64f11-8882-41af-9fb7-f6d6a46f53f0" />
+<img width="400" alt="image" src="https://github.com/user-attachments/assets/d07d5866-7bbd-40e6-9951-be17fd4a488b" />
 
 
 ### Renewal rates by industry
 
 This chart shows the percentage of subscriptions that were renewed in each industry.
 
-<img width="400" alt="image" src="https://github.com/user-attachments/assets/2e1e2964-37ad-42f3-8b2b-4e818c87c3f5" />
+<img width="400" alt="image" src="https://github.com/user-attachments/assets/941f65bc-d406-4e60-9e4b-16ac34e47a36" />
 
 
 ### Renewal rates by subscription type
 
 This chart compares the renewal rates between monthly and yearly subscriptions.
 
-<img width="400" alt="image" src="https://github.com/user-attachments/assets/283259d8-990a-43eb-906e-9d246a4f1a77" />
+<img width="400" alt="image" src="https://github.com/user-attachments/assets/79a5f9c1-4706-4653-bfd4-2cc5a0c6ca96" />
 
 
 ### Renewal rates by company size
 
 This chart compares the renewal rates across small, medium and large companies.
 
-<img width="400" alt="image" src="https://github.com/user-attachments/assets/ed7115d1-76d7-4dc2-9dbf-ab860b1b0da7" />
+<img width="400" alt="image" src="https://github.com/user-attachments/assets/f7b259fc-4356-4068-a144-ac6d0fd6313b" />
 
 
 ### Payment methods used by customers
 
 This chart shows how many payments were made using each payment method.
 
-<img width="400" alt="image" src="https://github.com/user-attachments/assets/16086560-2cdd-4105-8481-8df48847b5e3" />
+<img width="400" alt="image" src="https://github.com/user-attachments/assets/6681121c-bc22-4bc8-bf2d-f84577db1d79" />
+
 
 ### Average payment amount by payment method
 
 This chart compares the average payment amount for each payment method.
 
-<img width="400" alt="image" src="https://github.com/user-attachments/assets/88a1bbe8-51e8-46a7-ba1d-d54b23ef3f3c" />
+<img width="400" alt="image" src="https://github.com/user-attachments/assets/97a8f1c5-7fc1-4fee-ba29-4b1e4d744562" />
 
 
 ## Data Quality Checks
