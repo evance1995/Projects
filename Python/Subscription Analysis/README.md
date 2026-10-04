@@ -175,7 +175,7 @@ The main steps were:
 - The analysis shows patterns in the data but does not prove that economic conditions or payment amounts caused customers to renew.
 
 ## Project Files
-* notebook.ipynb — Main analysis
+* [subscription_analysis](subscription_analysis.ipynb) — Main analysis
 * [datasets](datasets) — CSV files used in the project
 
 ## Conclusion
