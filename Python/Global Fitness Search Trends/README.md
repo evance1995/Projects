@@ -67,12 +67,12 @@ These findings describe Google Trends search interest rather than actual fitness
 
 ## Limitations
 
-* Google Trends measures relative search interest, not the exact number of searches or people searching.
-* Search interest does not necessarily reflect purchases, gym memberships or how often people exercise.
-* The data ends in March 2023 and does not show current fitness search trends.
-* The periods used in the analysis are chosen for comparison and do not represent official COVID-19 start or end dates.
-* Missing geographic values limit the countries that can be compared.
-* The country comparisons focus on selected countries and do not cover every country in the dataset.
+* Google Trends shows a search interest score, not the exact number of searches.
+* Search interest does not tell us how much people spent on fitness or whether they actually worked out.
+* The data ends in March 2023, so it does not show current fitness search trends.
+* The periods were chosen to compare search interest and are not official COVID-19 start or end dates.
+* Some countries have missing data, so not all countries could be compared.
+* This analysis focuses on selected countries rather than every country in the dataset.
 
 ## How to Run the Project
 
