@@ -86,7 +86,7 @@ pip install pandas matplotlib seaborn jupyter
 
 ### 2. Open the project folder
 
-Make sure you are working from the `Global Fitness Search Trends` folder, which contains `notebook.ipynb` and the `datasets` folder.
+Make sure you are working from the `Global Fitness Search Trends` folder, which contains `global_search_trends.ipynb` and the `datasets` folder.
 
 ### 3. Launch Jupyter Notebook
 
@@ -96,7 +96,7 @@ Run:
 jupyter notebook
 ```
 
-Open `notebook.ipynb` in your browser.
+Open `global_search_trends.ipynb` in your browser.
 
 ### 4. Run the analysis
 
@@ -107,7 +107,7 @@ Run the notebook cells from top to bottom to reproduce the data checks, analysis
 ```text
 Global Fitness Search Trends/
 │
-├── notebook.ipynb
+├── global_search_trends.ipynb
 ├── README.md
 │
 └── datasets/
