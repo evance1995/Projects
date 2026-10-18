@@ -13,6 +13,7 @@
 -- dates: when each company became a unicorn
 -- industries: each company's industry
 -- funding: company valuations and funding information
+-- companies: company names and geographic information
 --
 -- Approach:
 -- 1. Inspect the source tables.
