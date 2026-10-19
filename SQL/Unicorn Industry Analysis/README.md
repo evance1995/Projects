@@ -22,11 +22,11 @@ The `datasets/` folder contains the CSV files used for this analysis. The tables
 
 ## Approach
 
-1. Preview the source tables and review their columns.
-2. Check for duplicate company IDs in `funding`, missing valuations, missing or blank industry values, and missing company/industry/date records.
-3. Identify the three industries with the most new unicorns from 2019 through 2021.
-4. Count new unicorns by industry and year and calculate average valuation in billions of US dollars.
-5. Use Python to visualize the annual counts and average valuations.
+- Preview the tables and review their columns.
+- Check for duplicate company IDs, missing valuations, missing or blank industry values, and missing company, industry, or date records.
+- Identify the three industries with the most new unicorns from 2019 to 2021.
+- Count new unicorns by industry and year and calculate their average valuations in billions of US dollars.
+- Use Python to create charts showing the yearly counts and average valuations.
 
 ## Visualizations
 
@@ -36,26 +36,26 @@ The charts below compare the number of new unicorns with average company valuati
 
 ## Key Findings
 
-- **Fintech had the most new unicorns in 2021**, with 138, followed by Internet software & services with 119 and E-commerce & direct-to-consumer with 47.
-- **All three industries had more new unicorns in 2021 than in 2020.** Fintech increased from 15 to 138, Internet software & services from 20 to 119, and E-commerce & direct-to-consumer from 16 to 47.
-- **Average valuations were lower in 2021 than in 2019 across all three industries.** Fintech decreased from $6.80 billion to $2.75 billion, Internet software & services from $4.23 billion to $2.15 billion, and E-commerce & direct-to-consumer from $2.58 billion to $2.47 billion.
-- The industry with the most new unicorns did not also have the highest average valuation in 2021. Fintech led in count, while E-commerce & direct-to-consumer had the highest average valuation of the three at $2.47 billion.
+- **Fintech had the most new unicorns in 2021**, with 138 companies. Internet software & services followed with 119, and E-commerce & direct-to-consumer had 47.
+- **All three industries saw a large increase in new unicorns in 2021 compared with 2020.**
+- **Average valuations were lower in 2021 than in 2019** across all three industries. Fintech decreased from $6.80 billion to $2.75 billion, Internet software & services from $4.23 billion to $2.15 billion, and E-commerce & direct-to-consumer from $2.58 billion to $2.47 billion.
+- **More new unicorns did not necessarily mean higher average valuations.** Fintech had the most new unicorns in 2021, but E-commerce & direct-to-consumer had a higher average valuation that year.
 
 ## Data Quality Checks
 
-All six SQL data quality checks returned zero rows. The checks covered duplicate company IDs in the funding table, missing valuations, missing or blank industry values, companies without a matching industry record, missing `date_joined` values, and companies without a matching date record. These checks did not identify issues in the specific cases tested, but they do not rule out every possible data quality issue.
+I performed six checks for duplicate company IDs, missing valuations, missing industry information, and missing dates. All six checks returned no results, so no issues were found in these specific checks. This does not guarantee that the datasets are free from every possible data quality issue.
 
 ## Limitations
 
-- The analysis covers only 2019–2021 and may not reflect more recent market conditions.
-- A company's valuation does not necessarily mean the company is profitable.
-- Average valuations can be affected by unusually high or low company valuations and may not represent every company in an industry.
-- The findings depend on the accuracy and completeness of the source data.
+- **Time period**: The analysis covers 2019 to 2021, so it does not show what happened in later years.
+- **Valuations**: A high company valuation does not necessarily mean a company is profitable.
+- **Average valuations**: Very highly valued companies can affect the average, so it may not represent every company in an industry.
+- **Data accuracy**: The results depend on the accuracy of the information in the datasets.
 
 ## Project Files
 
 - [`unicorn_analysis.sql`](unicorn_analysis.sql) — SQL table previews, data quality checks, and main analysis query.
-- [`unicorn_analysis.ipynb`](unicorn_analysis.ipynb) — project walkthrough, main analysis query result, charts, key findings, and limitations.
-- [`datasets/`](datasets/) — source CSV files.
-- [`unicorn_final_result.csv`](unicorn_final_result.csv) — main analysis query result.
+- [`unicorn_analysis.ipynb`](unicorn_analysis.ipynb) — project walkthrough, main analysis query result, charts, key findings, limitations, and conclusion.
+- [`datasets/`](datasets/) — source CSV files used in the analysis
+- [`unicorn_final_result.csv`](unicorn_final_result.csv) — main analysis query result used to create the charts.
 - [`unicorn_analysis_charts.png`](unicorn_analysis_charts.png) — chart image shown in this README.
